@@ -4,7 +4,7 @@ Vue.js 2.x + Axios + Mint-UI + JQuery + Vue-awesome-mui
 ## app效果图
   下图不是app卡，这个gif有10帧5.3M大小卡很正常。
   
-![blockchain](https://github.com/DJun5/smartHome/blob/master/SmartHome.gif)
+![效果图链接](https://github.com/DJun5/smartHome/blob/master/SmartHome.gif)
 
 ## 关于此APP一些说明
   1、这个app没有使用数据库，仅为了控制设备。
