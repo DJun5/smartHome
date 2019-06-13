@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <title>智慧家庭</title>
+    <script src="./static/js/jquery-2.1.1.min.js"></script>
+    <script src="./static/js/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body);
+        }, false);
+      }
+      if(!window.Promise) {
+        document.writeln('<script src="./static/js/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      }
+    </script>
+    <!-- 按两次返回键才退出app，还有返回上一级的功能 -->
+    <script>
+      mui.init({
+        keyEventBind: {
+          backbutton: true  //关闭back按键监听
+        }
+      });
+      // //首页返回键处理
+      // //处理逻辑：1秒内，连续两次按返回键，则退出应用；
+      let first = null;
+      mui.back = function() {
+        //首次按键，提示  再按一次退出应用
+        if (!first) {
+          first = new Date().getTime();//记录第一次按下回退键的时间
+          mui.toast('再按一次退出应用');//给出提示
+          history.go(-1); //回退到上一页面
+          setTimeout(function() { //1s中后清除
+            first = null;
+          }, 1000);
+        } else {
+          if (new Date().getTime() - first < 1000) {//如果两次按下的时间小于1s，
+            plus.runtime.quit();//那么就退出app
+          } } };
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
