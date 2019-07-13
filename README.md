@@ -1,6 +1,10 @@
 # smartHome APP
 Vue.js 2.x + Axios + Mint-UI + JQuery + Vue-awesome-mui
 
+# 关于程序的运行问题
+首再强调一下，这是一个Vue的项目，安装环境请确保你已经正确的安装了NodeJS。
+记得 npm install
+
 ## app效果图
   下图不是app卡，这个gif有10帧5.3M大小卡很正常。
   
