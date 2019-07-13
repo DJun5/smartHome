@@ -1,0 +1,174 @@
+@charset "utf-8";
+@keyframes up
+{
+  0% {
+    margin-top:1.5rem;
+  }
+  100% {
+    margin-top:-1rem;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button {
+  height: auto;
+  -webkit-appearance: none;
+}
+body{
+  padding: 0;
+  margin: 0;
+  border:0;
+}
+.re_logo{
+  position:absolute;
+  width:90%;
+  background-color: red;
+  margin-left:-5rem;
+  margin-top:-10rem;
+
+}
+.re_logo img{
+  position: absolute;
+  width:35rem;
+}
+button, input{
+  font: inherit;
+  margin: 0;
+  outline: none;
+  line-height: normal;
+}
+.bg_bank{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("../image/bg_bank.png") no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position:0 center;
+}
+.bg-color{
+  background-color: transparent !important;
+  color: black !important;
+}
+.mt-bu{
+  color:#8a8a8a;
+}
+.label_start{
+  position: absolute;
+  margin-top:1.5rem;
+  margin-left:3rem;
+  font-family: '仿宋';
+  color: #bfbfbf;
+}
+.label_updown{
+  animation:up 1s;
+  animation-fill-mode: forwards ;
+  font-family:'仿宋';
+  color: #8a8a8a;
+  z-index:1;
+  margin-top:1.5rem;
+  margin-left:3rem;
+
+}
+
+.bg_color{
+  width: 80%;
+  margin: 0 auto;
+  margin-top:15rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding:1rem;
+  padding-bottom:4rem;
+}
+/*#efb336*/
+.re_min{
+  border-bottom: 0.1rem solid #bfbfbf;
+  overflow: hidden;
+  height:5rem;
+  margin-top:2rem;
+  position: relative;
+  right: 0;
+}
+.re_min_outline{
+  border-bottom: 0.1rem solid #efb336;
+}
+
+.re_min .input01{
+  width:90%;
+  float:left;
+  height:4rem;
+  margin-left:3.2rem ;
+  margin-top:0.5rem;
+  color:#8a8a8a;
+  background:transparent;
+  border: none;
+}
+
+.re_min .icon_phone{
+  width:5rem;
+  height:5rem;
+  background: url("../image/icon_phone.png") no-repeat center;
+  background-size:3.2rem;
+  display: block;
+  margin-left:-1rem;
+  position:absolute;
+  float: left;
+}
+.re_min .icon_phone_outline{
+  background: url("../image/icon_phone_outline.png") no-repeat center;
+
+  width:5rem;
+  height:5rem;
+  background-size:3.2rem;
+  display: block;
+  margin-left:-1rem;
+  position:absolute;
+  float: left;
+
+}
+.re_min .icon_vf_code{
+  position:absolute;
+  width:5rem;
+  height:5rem;
+  margin-left:-1rem;
+  background: url("../image/icon_verif.png") no-repeat center;
+  background-size:3.2rem;
+  display: block;
+  float: left;
+}
+.re_min .icon_verif_outline{
+  background: url("../image/icon_verif_outline.png") no-repeat center;
+  background-size:3.2rem;
+  display: block;
+  float: left;
+}
+.re_login{
+  width:100%;
+  margin-top:2rem;
+  text-align: center;
+}
+.re_login .btn_login{
+  width: 80%;
+  height: 3rem;
+  line-height: 3rem;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius:20px;
+  background-color: #bfbfbf;
+  color: #fff;
+  font-size:1.3rem;
+}
+.reto_code{
+  position: absolute;
+  background-color:#dbdbdb;
+  width:9.5rem;
+  margin-top:1.3rem;
+  height:2.5rem;
+  text-align: center;
+  display: block;
+  padding:0.5rem;
+  color: #515151;
+  border: none;
+  right:0;
+  font-size:1rem;
+  border-radius:5rem;
+}
+

@@ -1,0 +1,45 @@
+{
+  "roomData" : [
+    {
+      "imgName": "../../../../assets/image/room/sitting_room.jpg",
+      "roomName ": "客厅",
+      "totalEquipment ": 0,
+      "onlineEquipment" : 0,
+      "roomID" : 1
+    },
+    {
+      "imgName": "../../../../assets/image/room/first_bedroom.jpg",
+      "roomName": "主卧",
+      "totalEquipment": 0,
+      "onlineEquipment": 0,
+      "roomID": 2
+    },
+    {
+      "imgName": "../../../../assets/image/room/second_bedroom.jpg",
+      "roomName": "次卧",
+      "totalEquipment": 0,
+      "onlineEquipment": 0,
+      "roomID": 3
+    },
+    {
+      "imgName": "../../../../assets/image/room/first_bathroom.jpg",
+      "roomName": "洗手间",
+      "totalEquipment": 0,
+      "onlineEquipment": 0,
+      "roomID": 4
+    },
+    {
+      "imgName":"../../../../assets/image/room/dining_room.jpg",
+      "roomName": "厨房",
+      "totalEquipment": 0,
+      "onlineEquipment": 0
+    },
+    {
+      "imgName": "../../../../assets/image/room/default_room.jpg",
+      "roomName": "默认",
+      "totalEquipment": 0,
+      "onlineEquipment": 0,
+      "roomID": 5
+    }
+  ]
+}

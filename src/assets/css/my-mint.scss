@@ -1,0 +1,42 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */
+$color-primary: #05AFAF;
+
+.mint-header {
+  background-color: $color-primary;
+}
+.mint-button:not(.is-disabled):active::after {
+  opacity: .2 /* .6 */
+}
+.mint-button--primary {
+
+}
+.mint-button--primary.is-plain {
+
+}
+.mint-badge.is-primary {
+}
+.mint-switch-input:checked + .mint-switch-core {
+}
+.mint-navbar .mint-tab-item.is-selected {
+}
+.mint-tabbar > .mint-tab-item.is-selected {
+}
+.mint-searchbar-cancel {
+}
+.mint-checkbox-input:checked + .mint-checkbox-core {
+}
+.mint-radio-input:checked + .mint-radio-core {
+}
+.mt-range-progress {
+}
+.mt-progress-progress {
+}
+.mint-msgbox-confirm {
+}
+.mint-msgbox-confirm:active {
+}
+.mint-datetime-action {
+}
+.mt-tab-item{
+  color:#FF8C00;
+}
